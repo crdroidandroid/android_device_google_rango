@@ -14,3 +14,7 @@ ro.vendor.touch.gti0.resample_latency.enabled=true
 ro.vendor.touch.gti0.resample_latency_us=10000
 ro.vendor.touch.gti1.resample_latency.enabled=true
 ro.vendor.touch.gti1.resample_latency_us=7000
+
+# Force AICore Persistent Mode
+persist.device_config.aicore.is_persistent_mode_enabled=true
+persist.device_config.aicore.persistent_mode=true
